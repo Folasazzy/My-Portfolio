@@ -1,0 +1,468 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Croissant+One&family=Dela+Gothic+One&family=Inter&family=Josefin+Sans&family=Martian+Mono&family=Playfair+Display&family=Roboto&family=Ubuntu&display=swap');
+body{
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.shad{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.shad1{
+    width: 30%;
+    height: 100%;
+    background-color: rgb(227, 126, 143);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    box-sizing: border-box;
+}
+.shad1 .bg{
+    background-image: url('Shade.jpg');
+    background-size: cover;
+    background-position: top;
+    width: 250px;
+    height: 250px;
+    /* border-radius: 70%; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    -webkit-clip-path: polygon(51% 1%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+clip-path: polygon(51% 1%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+}
+.shad1 h1{
+    font-family:Croissant One;
+    font-size: 35px;
+    line-height: 1;
+    text-align: center;
+}
+.shad1 .socials{
+    margin: 5vh 0 0 0;
+    display: flex;
+    flex-direction: column;
+}
+.shad1 .socials a{
+    padding: 10px 5px;
+    font-size: 18px;
+    font-family:josefin sans;
+    text-decoration: none;
+    color: white;
+}
+.fa-brands{
+    color: rgb(92, 92, 172);
+    font-size: 20px;
+    margin: 0 6px;
+}
+.shad1 p{
+    margin: 0;
+    font-size: 20px;
+    font-family: Josefin Sans;
+}
+.shad2{
+    position: relative;
+    background-image: url('px.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 70%;
+    height: 100%;
+    /* filter: brightness(30%); */
+    z-index: 0;
+}
+.shad2::before{
+    position: absolute;
+    top: 0;
+    content: '';
+    background-color: black;
+    opacity: 0.7;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+.shad2a{
+    position: absolute;
+    width:100%;
+    height: 100%;
+    top: 0;
+    z-index: 2;
+}
+.shad2a .sow{
+    display: flex;
+    list-style-type: none;
+    margin: 0 0 0 5%;
+}
+.shad2a .sow li{
+    padding: 10% 5%;
+    font-size: 20px;
+    font-family: Josefin Sans;
+}
+.shad2a .sow li a{
+    text-decoration: none;
+    color: white;
+    transition: all 0.25s ease;
+}
+.shad2a .sow li a:hover{
+    font-size: 21px;
+    color: rgb(189, 112, 112);
+}
+.shad3{
+    margin:0 0 0 10%;
+    font-family: Josefin Sans;
+}
+.shad3 p{
+    font-size: 28px;
+    color:pink;
+}
+.shad3 .p1{
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+.shad3 h1{
+    font-size: 70px;
+    color: white;
+    line-height: 0;
+}
+.shad3 h1 span{
+    font-family: croissant one;
+    background: linear-gradient(to right, pink, red, blue, red, pink);
+     background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.top{
+    display: flex;
+    align-items: center;
+    background-color: pink;
+    height: 25vh;
+}
+.top img{
+        margin-left: 5%;
+}
+.top h1{
+    font-size: 65px;
+    font-family: Bebas Neue;
+}
+.topa{
+    width: 60%;
+}
+.topa img{
+    width: 60%;
+    margin: 10% 15%;
+}
+.tope{
+    width: 40%;
+    text-align: center;
+    margin: 5% 5%;
+}
+.tope h1{
+    font-size: 35px;
+    font-family: Bebas Neue;
+}
+.tope p{
+    font-size: 20px;
+    font-family: roboto;   
+}
+.top1{
+    display:flex;
+    width: 100%;
+}
+.max{
+    background-color:pink;
+    height: 20vh;
+    display: flex;
+}
+.max h1{
+    font-size: 60px;
+}
+.maxwell{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 10% 5%;
+}
+.max1{
+    padding: 2%;
+    background-color:pink;
+    width: 40vh;
+    height: 40vh;
+    text-align: center;
+}
+.max1 img{
+    background-color: rgb(184, 184, 238);
+    border-radius: 30%;
+    width: 35%;
+    height: 35%;
+}
+.max1 h1{
+    font-size: 30px;
+}
+.max1 p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.dad{
+    background-color:pink;
+    height: 20vh;
+    display: flex;
+}
+.dad h1{
+    font-size: 60px; }
+.mom h1{
+    font-size: 60px;
+ }
+ .mom1 h2{
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 5%;
+ }
+.mom2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 5% 1.5%;    
+}
+.mom2 a{
+    all: unset;
+    font-size: 18px;
+    border: 2px solid rosybrown ;
+    width: 20%;
+    height: 9%;
+    background-color: pink;
+    cursor: pointer;
+    /* line-height: 0%; */
+    /* transition: all 1s ease;  */
+}
+ .mom2 img{
+    width: 80%;
+    height: 80%;
+    transition: all 2s ease;
+ }
+ .mom2 img:hover{
+    transform: scale(1.1);
+ }
+.sis{
+    background-color:pink;
+    height: 20vh;
+    display: flex;
+ }
+.sis h1{
+    font-size: 60px;
+}
+.world{
+    width: 100%;
+    margin: 5% 10%;
+}
+.zee textarea{
+    width: 50%;
+    height: 50vh;
+}
+.mood{
+    display: flex;
+    align-items: center;
+}
+.mood img{
+    height: 5vh;
+}
+.wood input{
+    width: 28%;
+    height: 5vh;
+}
+.wood button{
+    width: 15%;
+    height: 8vh;
+    background-color: pink;
+    font-size: 18px;
+}
+.wood button:hover{
+    transform: scale(1.1);
+}
+.mansion{
+    display: flex;
+    width: 100%;
+}
+.zee textarea{
+    width: 70%;
+    height: 50%;
+}
+.maad{
+    margin: 5%;
+    line-height: -10%;
+}
+.shad2a button{
+    display: none;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 15%;
+    padding: 5px;
+}
+.shade .saw{
+    display: flex;
+    list-style-type: none;
+    padding: 3%;
+}
+.shade .saw li{
+	padding: 0 1.5%;
+}
+.shade .saw a{
+	text-decoration: none;
+	font-size: 15px;
+}
+.shade{
+    position: absolute;
+    display: none;
+    top: 4.5vh;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 1000px){
+.shad1.a{
+    display: none;
+} 
+.shad1.b{
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    transform: translateX(-150%);
+    transition: all 0.25s ease-in-out;
+}
+.b.active{
+    /* opacity: 1; */
+    transform: translateX(0);
+}
+.shad1 .bg{
+    width: 100px;
+    height: 100px;
+}
+.shad1 h1{
+    font-size: 23px;
+    line-height: 1;
+    text-align: center;
+}
+.shad1 .socials a{
+    padding: 5px 3px;
+    font-size: 15px;
+}
+.shad2a .sow{
+    display: none;
+}
+.shade{
+    display: block;
+}
+.shad2a{
+    padding: 10px;
+    box-sizing: border-box;
+}
+.shad2a button{
+    display: block;
+}
+.shad1 p{
+    font-size: 15px;
+}
+.fa-brands{
+    margin: 0 2px;
+}
+.shad2{
+    width: 100%;
+    height: 100vh;
+    
+}
+.shad3 p{
+    font-size: 18px;
+    width: 80%;
+}
+.shad3 .p1{
+    letter-spacing: 18px;
+    font-size: 30px;
+}
+.shad3 h1{
+    font-size: 44px;
+    color: white;
+    line-height: 1;
+}
+.shad3{
+    margin: 20% 0 0 5%;
+}
+.max h1{
+    font-size: 40px;
+}
+.maxwell, .mom2{
+    display: flex;
+    flex-direction: column;
+}
+.max1{
+    width: 40vh;
+    height: 30vh;
+}
+.max1 img{
+    border-radius: 20%;
+    width: 25%;
+    height: 25%;
+}
+.max1 h1{
+    font-size: 25px;
+}
+.mom2{
+    width: 80%;
+    margin: 0 10%;
+}
+ .mom2 img{
+    width: 100%;
+    height: 70%;
+    /* margin: 2% 1.5%; */
+ }
+ .mom2 a{
+    font-size: 15px;
+    width: 10%;
+    height: 10%;
+ }
+ .mansion{
+    display: grid;
+}
+.zee textarea{
+    width: 40vh;
+    height: 20vh;
+}
+.world{
+    width: 50%;
+    margin: 5% 5%;
+}
+.wood input{
+    width: 70%;
+    height: 5vh;
+}
+.wood button{
+    width: 55%;
+    height: 5vh;
+    background-color: pink;
+    font-size: 18px;
+}
+ .maad{
+    display: flex;
+    margin: 5%;
+    line-height: -10%;
+}
+.mood img{
+    width: 15%; 
+}
+.top{
+    height: 15vh;
+}
+.top h1{
+    font-size: 40px;
+}
+.topa{
+    width: 100%;
+}
+.topa img{
+    width: 80%;
+    margin: 10% 5%;
+}
+.tope{
+    width: 80%;
+    margin: 5% 5%;
+}
+.top1{
+    display:grid;
+}
+}
+    
